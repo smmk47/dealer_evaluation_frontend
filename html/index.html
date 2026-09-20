@@ -6,8 +6,8 @@
 }
   </style>
   <script>
-    let produrl = "/"
-    let dealerurl = "/"
+    let produrl = "https://connect-denied-persons-annotated.trycloudflare.com/prod/"
+    let dealerurl = "https://connect-denied-persons-annotated.trycloudflare.com/dealer/"
 
     axios.get(produrl+"products").then(res=>{
       let selEl = document.createElement("select");
